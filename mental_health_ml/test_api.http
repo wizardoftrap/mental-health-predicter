@@ -1,0 +1,23 @@
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+    "anxiety_frequency": "Often",
+    "physical_symptoms": "Sometimes",
+    "impact_on_life": "High",
+    "history_of_anxiety": "Yes",
+    "sadness_frequency": "Always",
+    "interest_in_activities": "Low",
+    "energy_levels": "Low",
+    "sleep_patterns": "Poor",
+    "thoughts_of_self_harm": "No",
+    "support_system": "Weak",
+    "feeling_overwhelmed": "Often",
+    "stress_management": "Low",
+    "social_withdrawal": "Sometimes",
+    "mood_swings": "Often",
+    "concentration_levels": "Low",
+    "social_engagement": "Low",
+    "perceived_stress": "High",
+    "feelings_of_isolation": "Always"
+}
